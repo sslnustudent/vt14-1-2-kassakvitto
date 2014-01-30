@@ -1,0 +1,42 @@
+﻿#ReceiptBox {
+    clear:left;
+    float:left;
+    width:200px;
+    height:250px;
+    background-color:lightgray;
+    border:solid;
+    border-width:1px;
+}
+.textclass {
+
+
+    float:left;
+    clear:left;
+}
+#OkButton {
+
+    float:left;
+    clear:left;
+}
+#TextLabel {
+    clear:left;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+#ValueTextBox {
+    float:left;
+    clear:left;
+}
+#KrLabel {
+    float:left;
+}
+#TitelLabel {
+
+    font-size:30px;
+    font-weight: bold;
+}
+#SmallLabel {
+
+    font-size:x-small;
+}
