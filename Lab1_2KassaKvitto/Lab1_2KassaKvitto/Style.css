@@ -8,8 +8,7 @@
     border-width:1px;
 }
 .textclass {
-
-
+    text-align:center;
     float:left;
     clear:left;
 }
@@ -20,8 +19,8 @@
 }
 #TextLabel {
     clear:left;
-    margin-left:auto;
-    margin-right:auto;
+    float:left;
+
    
 }
 #ValueTextBox {
