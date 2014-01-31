@@ -25,7 +25,7 @@ namespace Lab1_2KassaKvitto.Model
             {
                 return _subtotal;
             }
-            set
+            private set
             {
                 if (value <= 0)
                 {
@@ -47,31 +47,25 @@ namespace Lab1_2KassaKvitto.Model
         {
             Subtotal = subtotal;
 
-            if(Subtotal <= 499)
+            if (Subtotal <= 499)
             {
                 DiscountRate = 0;
-                MoneyOff = 0;
             }
-            else if(499 < Subtotal && Subtotal <= 999)
+            else if (Subtotal <= 999)
             {
                 DiscountRate = 0.05;
-                MoneyOff =  Subtotal * 0.05;
             }
-            else if (999 < Subtotal && Subtotal <= 4999)
+            else if (Subtotal <= 4999)
             {
                 DiscountRate = 0.10;
-                MoneyOff = Subtotal * 0.10;
             }
             else
             {
                 DiscountRate = 0.15;
-                MoneyOff = Subtotal * 0.15;
             }
 
+            MoneyOff = Subtotal * DiscountRate;
             Total = Subtotal - MoneyOff;
-
-
-
         }
 
         public Receipt(double subtotal)

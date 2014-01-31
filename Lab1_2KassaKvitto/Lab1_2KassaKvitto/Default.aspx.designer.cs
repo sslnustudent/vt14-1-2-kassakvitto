@@ -40,6 +40,15 @@ namespace Lab1_2KassaKvitto {
         protected global::System.Web.UI.WebControls.TextBox ValueTextBox;
         
         /// <summary>
+        /// KrLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label KrLabel;
+        
+        /// <summary>
         /// RequiredFieldValidator1 control.
         /// </summary>
         /// <remarks>
@@ -58,15 +67,6 @@ namespace Lab1_2KassaKvitto {
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
         
         /// <summary>
-        /// KrLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label KrLabel;
-        
-        /// <summary>
         /// OkButton control.
         /// </summary>
         /// <remarks>
@@ -76,6 +76,24 @@ namespace Lab1_2KassaKvitto {
         protected global::System.Web.UI.WebControls.Button OkButton;
         
         /// <summary>
+        /// ClearButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ClearButton;
+        
+        /// <summary>
+        /// ReturnHyperLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink ReturnHyperLink;
+        
+        /// <summary>
         /// ReceiptBox control.
         /// </summary>
         /// <remarks>
@@ -83,15 +101,6 @@ namespace Lab1_2KassaKvitto {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ReceiptBox;
-        
-        /// <summary>
-        /// TitelLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TitelLabel;
         
         /// <summary>
         /// SmallLabel control.

@@ -2,7 +2,7 @@
     clear:left;
     float:left;
     width:200px;
-    height:250px;
+    height:290px;
     background-color:lightgray;
     border:solid;
     border-width:1px;
@@ -11,10 +11,22 @@
     text-align:center;
     float:left;
     clear:left;
+    width:100%;
+    margin-top:5px;
+      
+}
+.errorclass {
+
+    float:left;
+    color:red;
 }
 #OkButton {
 
     float:left;
+    clear:left;
+}
+#ReturnHyperLink {
+        float:left;
     clear:left;
 }
 #TextLabel {
@@ -38,4 +50,12 @@
 #SmallLabel {
 
     font-size:x-small;
+}
+#Label1 {
+
+    border-bottom:dotted;
+}
+#OrgNrLabel {
+
+    border-top:dotted;
 }
